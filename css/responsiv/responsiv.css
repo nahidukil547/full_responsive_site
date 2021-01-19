@@ -1,0 +1,33 @@
+@media screen and (max-width:991px){
+    /* header section  */
+    .navbar__toggler{
+        width: 80px;
+        height: 80px;
+        background: none;
+    }
+    /* header menu  */
+    .nav__option{
+        width: 60% !important;
+        position: absolute;
+        top: 130px;
+        left: 20%;
+        background: #ffffff;
+        margin: 0 auto;
+        padding:10px 50px  ;
+        box-shadow: 0px 0px 10px 5px #cfcfcf;
+        z-index: 11;
+    }
+    /* carousel menu  */
+    .carousel__section{
+        display: none;
+    }
+    .simple__carousel__rasponsiv{
+        display: inline-block;
+    }
+    .left__to__right{
+        text-align: left !important;
+    }
+}
+
+
+
